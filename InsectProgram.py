@@ -1,9 +1,11 @@
 import InsectClass as ic
 
-def main():
-    my_insect = ic.Insect()
-    my_insect.flight()
+mosquito = ic.Insect()
+housefly = ic.Insect()
 
-    print('This is the number of miles that the insect can fly:', my_insect.get_miles())
+mosquito.calc_flight()
+housefly.calc_flight()
 
-main()
+
+print('This is the number of miles that the mosquito can fly:', mosquito.get_miles())
+print('This is the number of miles that the housefly can fly:', housefly.get_miles())
